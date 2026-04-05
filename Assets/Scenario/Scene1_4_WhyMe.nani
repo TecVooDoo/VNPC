@@ -1,0 +1,83 @@
+; ============================================================
+; Scene 1.4 — Why Me?
+; ============================================================
+; Location: Office
+; Characters: Hanna, Mat
+; Summary: Hanna demands reasons. Mat lists three points. Hanna's
+;          anger spikes. Mat's offer stops her from leaving.
+; ============================================================
+
+@printer TADialogue
+@back Office
+@char Mat.Suit pos:70
+@char Hanna.Wheelchair pos:30
+
+; [SFX: WheelchairBrake]
+The wheelchair turned back to face Mat, and the brakes were reengaged.
+
+Hanna: Ok, Mat. Tell me why.
+Hanna: Why am I getting this procedure? There are plenty of others more deserving.
+Hanna: I know I screwed my military career and never questioned my discharge. Not once. It was deserved.
+Hanna: So why am I so special?
+
+Mat began ticking off points on his fingers.
+
+Mat: One. You were injured while you served.
+Mat: Two. Your DNA is compatible with the procedure.
+Mat: Three. You have always wanted children.
+
+@char Hanna.Angry pos:30
+Hanna was silent. Her hands gripped her armrests until the black fabric covering the foam tore.
+
+Hanna: What did you say?
+
+@char Mat.Sympathetic pos:70
+Mat: You have always wanted children.
+Mat: The shrapnel that pierced your lower spine became lodged in your uterus, rendering you barren.
+
+Hanna released her white-knuckled grip and extended three fingers to Mat.
+
+Hanna: One. You're an <shake>asshole</shake>.
+
+Hanna lowered her index finger.
+
+Hanna: Two. The shrapnel didn't cause me to be barren.
+Hanna: An infection spread from my uterus to my ovaries because the shrapnel was not taken out in time.
+Hanna: Which forced a full hysterectomy.
+
+Hanna lowered her ring finger.
+
+Hanna: Three. <shake>Eat shit and die. Asshole.</shake>
+
+Hanna let her middle finger hang in the air for a moment before reaching for her wheel brakes.
+
+Hanna: We are done here.
+
+@char Mat pos:70
+Mat: What if I said you can <wave>have children</wave>?
+
+Mat leaned back in his chair, tilted his head to the side, and waited.
+
+@char Hanna.Suspicious pos:30
+Hanna pulled her hands back from her brakes, sat back heavy against her backrest, and crossed her arms.
+
+Hanna: Alright, I'll listen if you can answer one question honestly.
+
+@char Mat.Sympathetic pos:70
+Mat leaned forward and clasped his hands, resting them on the desk. He nodded once.
+
+Mat: Agreed.
+
+Hanna: You seem to know a lot about me.
+Hanna: Earlier, when you asked if Antoine was my husband, did you already know the answer?
+
+Mat: Yes.
+
+Mat didn't hesitate and remained a stoic statue.
+
+@char Hanna.Angry pos:30
+Hanna pursed her lips and nodded her head in time with her angry pulse.
+
+Hanna: Why did you act as if it was unknown?
+
+@goto Scene1_5_TheQuestion

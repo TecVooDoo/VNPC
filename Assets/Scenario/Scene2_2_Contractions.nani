@@ -1,0 +1,73 @@
+; ============================================================
+; Scene 2.2 — Contractions
+; ============================================================
+; Location: OperatingRoom
+; Characters: Hanna, Mat, Nurse (voice), Doctor (voice)
+; Summary: Hanna's body regains feeling. She sees the operating
+;          setup. Contractions begin with violent intensity.
+; ============================================================
+
+@printer TADialogue
+@back OperatingRoom
+@char Hanna.Pain pos:30
+@char Mat.Scrubs pos:70
+
+Hanna was able to turn her head to the right.
+
+A large blue fabric hung from the ceiling, stretching across the room and covering her midsection.
+
+She was lying on her left side next to an IV pole with fluids running into her arm.
+
+A strap bound her right arm to her body while another stretched across her waist. Both secured her to the operating table.
+
+; [SFX: FranticClacking]
+The clacking noises sped up to a frantic pace behind the curtain.
+
+A man's deep voice said, "Sir, she needs to calm down. The baby's heart rate is rising too. It might be in distress."
+
+Mat bent in front of Hanna's face again.
+
+Mat: Hanna, you have to relax. You are putting the baby in danger.
+
+@char Hanna.Angry pos:30
+Hanna: You mean your daughter.
+
+@char Mat.Scrubs pos:70
+Mat: Ninety-five percent my daughter, but five percent you.
+Mat: You were selected not only because you were willing and viable, but you have the recessive genes necessary to ensure my daughter's genes would be dominant.
+Mat: For example, you have red hair and green eyes. Both are recessive to blonde hair and brown eyes.
+Mat: There are others, but you get the idea.
+Mat: However, despite science coming so far, five percent of your DNA will be part of her makeup.
+Mat: Still, I will live with ninety-five percent of my daughter. This is the last of her usable DNA. It has to work.
+Mat: And you will be her mother.
+
+; [SFX: ContractionHit]
+@char Hanna.Pain pos:30
+Hanna opened her mouth to respond, but only a scream came out.
+
+Her breathing became erratic, and <shake>pain ripped through her body</shake>. Her hands balled into tight fists.
+
+Hanna: Something— Something doesn't feel right.
+
+The man's voice behind the curtain said, "The contractions are getting more severe. She is completely dilated."
+
+@char Mat.Scrubs pos:70
+Mat ran behind the curtain.
+
+Mat: Is it time? Is she here?
+
+The woman's voice called out. "Almost. I can see the top of the head."
+
+; [SFX: ContractionWave]
+Hanna had lost all sense of her surroundings until the contraction let up.
+
+She realized the strap holding her arm had snapped in two. She wiped her face with her hand and placed it back on her side.
+
+The pain came in waves, and then it was all there was again. Hanna screamed and began taking deep, short breaths.
+
+Once the pain subsided enough to think, she gritted her teeth and shut her eyes in anticipation of the next wave—but it didn't come.
+
+Hanna: Something's wrong. Something doesn't feel right.
+Hanna: <shake>Something is wrong!</shake>
+
+@goto Scene2_3_TheWrongBaby

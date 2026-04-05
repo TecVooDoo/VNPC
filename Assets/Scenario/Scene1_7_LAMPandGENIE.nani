@@ -1,0 +1,109 @@
+; ============================================================
+; Scene 1.7 — LAMP and GENIE
+; ============================================================
+; Location: Office
+; Characters: Hanna, Mat
+; Summary: Hanna learns what LAMP and GENIE stand for. Mat reveals
+;          the island. Hanna agrees to both procedures.
+; ============================================================
+
+@printer TADialogue
+@back Office
+@char Hanna pos:30
+@char Mat.Suit pos:70
+
+@char Hanna.Smirking pos:30
+Hanna's eyebrows shot to the top of her head.
+
+Hanna: Are you saying if I rub your lamp, you will grant my wish?
+Hanna: Because if that's the case, you better call your security before I <bounce>rip your lamp off and rub it between your butt cheeks when I shove it up your ass</bounce>.
+
+@char Mat.Shocked pos:70
+Mat's eyebrows shot up to his receding hairline.
+
+Mat: No. What? No—
+
+Mat pinched the bridge of his nose.
+
+@char Mat.Suit pos:70
+Mat: The LAMP stands for Ligation And Mechanosynthetic Procedure.
+Mat: It is the procedure that will allow you to run like the wind.
+Mat: GENIE stands for Genetically Engineered Nanite Infused Embryo.
+Mat: It is how you will grow a baby inside you.
+
+@char Hanna.Suspicious pos:30
+Hanna: You aren't selling this well. Genetic engineering and nanites?
+Hanna: So it won't be natural.
+Hanna: Last I checked, engineering humans was still illegal.
+
+@char Mat pos:70
+Mat: Correct, it is still illegal.
+Mat: I own an island where there are no such regulations.
+Mat: You must accept the terms of moving to the island to have the procedure.
+
+@char Hanna.Suspicious pos:30
+Hanna cocked her head to the side and arched an eyebrow.
+
+Hanna: So there's the catch. I have to agree to move to some fantasy island.
+Hanna: For how long? And what happens if I decide island life isn't for me?
+
+@char Mat.Suit pos:70
+Mat spread his hands.
+
+Mat: You have to understand the risks we are taking even performing this type of procedure.
+Mat: You would have to stay indefinitely.
+Mat: But the island is not some desolate, forgotten landmass.
+Mat: You would be living the rest of your life in a five-star all-inclusive hotel.
+Mat: It's a magical place.
+
+@char Hanna.Smirking pos:30
+Hanna maintained her arched eyebrow and added a slight grin.
+
+Hanna: Tahiti?
+
+@char Mat.Sympathetic pos:70
+Mat arched his eyebrow.
+
+Mat: No, not Tahiti. Why did you even ask that?
+
+@char Hanna pos:30
+Hanna's grin disappeared, and she rolled her eyes.
+
+Hanna: Just… just never mind. It was a bad joke.
+
+@char Mat.Suit pos:70
+Mat: Ok. Well, jokes aside—
+Mat: Do you want to see if you are a match for the GENIE program, or do you want to only agree to the LAMP?
+
+Mat clasped his hands on the desk.
+
+@char Hanna.Suspicious pos:30
+Hanna: So, if I say no to the—
+
+Hanna made air quotes.
+
+Hanna: —GENIE program, I can still get my legs fixed?
+
+@char Mat pos:70
+Mat nodded once.
+
+Mat: That is correct. One is not dependent on the other.
+
+@char Hanna pos:30
+Hanna let out a long breath and closed her eyes.
+
+Hanna: Then yes.
+Hanna: Yes to both procedures and yes to agreeing to live on the island.
+
+; [SFX: DeskSlap]
+@char Mat.Emotional pos:70
+Mat slapped the desk with both hands again.
+
+Mat: <bounce>Hot damn!</bounce> That's the spirit!
+
+@char Hanna.Smirking pos:30
+Hanna smiled.
+
+Hanna: So, what is this other test?
+
+@goto Scene1_8_Touchpad

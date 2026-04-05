@@ -1,0 +1,126 @@
+; ============================================================
+; Phase 2 Validation: Characters and Backgrounds
+; ============================================================
+; Tests all GITT characters (with appearances) and backgrounds.
+; Run to verify all actors are registered and display correctly.
+; ============================================================
+
+@printer TADialogue
+
+; --- Background: Office ---
+@back Office
+This is the Office background. Hanna's law firm office — where Act 1 takes place.
+
+; --- Character: Hanna (all appearances) ---
+@char Hanna pos:50
+Hanna: This is Hanna — default appearance.
+@char Hanna.Wheelchair
+Hanna: Now showing Wheelchair appearance.
+@char Hanna.Suspicious
+Hanna: Suspicious appearance.
+@char Hanna.Angry
+Hanna: Angry appearance.
+@char Hanna.Smirking
+Hanna: Smirking appearance.
+@char Hanna.Tearful
+Hanna: Tearful appearance.
+@char Hanna.Pain
+Hanna: Pain appearance.
+@char Hanna.Tender
+Hanna: Tender appearance.
+@hide Hanna
+
+; --- Character: Mat (all appearances) ---
+@char Mat pos:50
+Mat: This is Mat — default appearance.
+@char Mat.Suit
+Mat: Suit appearance.
+@char Mat.Kneeling
+Mat: Kneeling appearance.
+@char Mat.Sympathetic
+Mat: Sympathetic appearance.
+@char Mat.Emotional
+Mat: Emotional appearance.
+@char Mat.Scrubs
+Mat: Scrubs appearance.
+@char Mat.Shocked
+Mat: Shocked appearance.
+@char Mat.Enraged
+Mat: Enraged appearance.
+@hide Mat
+
+; --- Character: Nurse (all appearances) ---
+@char Nurse pos:50
+Nurse: This is Nurse — default appearance.
+@char Nurse.Professional
+Nurse: Professional appearance.
+@char Nurse.Protective
+Nurse: Protective appearance.
+@hide Nurse
+
+; --- Character: Doctor (all appearances) ---
+@char Doctor pos:50
+Doctor: This is Doctor — default appearance.
+@char Doctor.Calm
+Doctor: Calm appearance.
+@char Doctor.Urgent
+Doctor: Urgent appearance.
+@hide Doctor
+
+; --- Multiple characters on stage ---
+@back Office
+@char Hanna.Wheelchair pos:25
+@char Mat.Suit pos:75
+Hanna: Mat and I are both on screen now.
+Mat: Two characters positioned side by side.
+
+; --- Three characters ---
+@char Nurse.Professional pos:50
+Nurse: Now there are three of us.
+@hide Nurse
+@hide Hanna
+@hide Mat
+
+; --- Background: OperatingRoom ---
+@back OperatingRoom
+This is the Operating Room background. Standard hospital OR.
+
+@char Doctor.Calm pos:30
+@char Nurse.Professional pos:70
+Doctor: The operating room before the reveal.
+Nurse: Everything looks normal so far.
+@hide Doctor
+@hide Nurse
+
+; --- Background: OperatingRoomRevealed ---
+@back OperatingRoomRevealed
+This is the Operating Room Revealed — after the centaur transformation is visible.
+
+@char Mat.Scrubs pos:50
+Mat: The room has changed. The truth is visible now.
+@hide Mat
+
+; --- Background: Black (transition) ---
+@back Black
+This is the Black background — used for transitions and blackouts.
+
+; --- Background transitions ---
+@back Office time:1 wait!
+Smooth transition to Office over 1 second.
+@back OperatingRoom time:1 wait!
+Smooth transition to Operating Room.
+@back Black time:0.5 wait!
+
+; --- Final combined test ---
+@back Office time:0.5 wait!
+@char Hanna.Angry pos:30
+@char Mat.Sympathetic pos:70
+Hanna: This is a full scene setup — background, two characters, specific appearances.
+Mat: If you can see us both with the Office behind us, Phase 2 is working.
+@hide Hanna
+@hide Mat
+
+; --- End ---
+@back Black time:0.5 wait!
+Phase 2 validation complete. All characters, appearances, and backgrounds are registered.
+@stop

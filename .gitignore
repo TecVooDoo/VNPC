@@ -1,0 +1,68 @@
+# ============================================================
+# VNPC .gitignore
+# Track ONLY project-specific files. Exclude all third-party
+# assets, Unity cache, and editor artifacts.
+# ============================================================
+
+# ---- Ignore everything by default ----
+*
+
+# ---- Git and project root ----
+!.gitignore
+!CLAUDE.md
+
+# ---- Documents ----
+!Documents/
+!Documents/**
+
+# ---- Unity project config ----
+!ProjectSettings/
+!ProjectSettings/**
+!Packages/
+!Packages/manifest.json
+!Packages/packages-lock.json
+
+# ---- Assets folder structure (must un-ignore each level) ----
+!Assets/
+
+# ---- VNPC-specific assets ----
+!Assets/_VNPC/
+!Assets/_VNPC/**
+!Assets/_VNPC.meta
+
+# ---- Naninovel scripts ----
+!Assets/Scenario/
+!Assets/Scenario/**
+!Assets/Scenario.meta
+
+# ---- Naninovel data (printer prefabs, configs) ----
+!Assets/NaninovelData/
+!Assets/NaninovelData/**
+!Assets/NaninovelData.meta
+
+# ---- Custom scripts ----
+!Assets/Scripts/
+!Assets/Scripts/**
+!Assets/Scripts.meta
+
+# ---- Shared settings ----
+!Assets/Settings/
+!Assets/Settings/**
+!Assets/Settings.meta
+
+# ---- Exclude binaries and caches even in tracked folders ----
+*.dll
+*.pdb
+*.mdb
+*.exe
+*.app
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini

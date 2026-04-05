@@ -1,0 +1,43 @@
+; ============================================================
+; Scene 2.3 — The Wrong Baby
+; ============================================================
+; Location: OperatingRoom
+; Characters: Hanna, Mat, Doctor (voice)
+; Summary: Mat peeks from behind the curtain, elated—then staff
+;          alert him. The baby is wrong. Mat is furious.
+; ============================================================
+
+@printer TADialogue
+@back OperatingRoom
+@char Hanna.Pain pos:30
+
+Mat peeked his face from behind the curtain, sporting a smile from ear to ear.
+
+@char Mat.Scrubs pos:70
+Mat: You did it. You did it, Hanna.
+
+; [SFX: Clacking]
+More clacking sounds came from the other side of the room.
+
+A man's deep voice said, "Uh, Sir. You need to see this."
+
+Mat turned his head, and the smile disappeared.
+
+; [SFX: MetalCrash]
+@char Mat.Enraged pos:70
+He hit a surgical tray, and metal tools crashed to the ground.
+
+Mat: <shake>Not possible! That—is—not—possible!</shake>
+
+Mat turned back to Hanna, his eyes in dangerous slits.
+
+Mat: <shake>You did this.</shake> Somehow this is your fault.
+
+@char Hanna.Smirking pos:30
+Hanna, still breathing hard, said between breaths.
+
+Hanna: What is my fault?
+Hanna: I am strapped to a table and haven't been awake for eleven months, if you haven't noticed.
+Hanna: But, I will gladly take the blame since it is something that has made you this upset.
+
+@goto Scene2_4_ChimeraReveal

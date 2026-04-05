@@ -1,0 +1,90 @@
+; ============================================================
+; Scene 1.6 — Mat's Daughter
+; ============================================================
+; Location: Office
+; Characters: Hanna, Mat
+; Summary: Mat shares the story of his daughter — the first patient
+;          and first failure. Hanna learns about GENIE.
+; ============================================================
+
+@printer TADialogue
+@back Office
+@char Hanna pos:30
+@char Mat pos:70
+
+Hanna opened her mouth to answer, but Mat didn't give her a chance.
+
+Mat: My daughter loved horses.
+Mat: She loved all animals, but especially horses.
+
+Hanna didn't try to speak. She waited as Mat continued to face the wall with his head hung.
+
+Mat returned to his chair and placed the frame on the desk in front of Hanna.
+
+; [SFX: PhotoFrame]
+The frame depicted a small girl dressed in a princess costume in a hoverchair, peering through a wooden fence on a horse ranch.
+
+The hoverchair had pink cloth fairy wings attached to its backrest that swayed in time with the chair as it floated above the ground.
+
+The horses moved behind the fence as the little blonde child watched and then looked back with brown eyes, smiling wide at the camera.
+
+A repeating holographic loop of a moment captured in time.
+
+@char Hanna.Smirking pos:30
+Hanna watched the little girl and smiled.
+
+Hanna: She's adorable. How old is she now?
+
+@char Mat.Emotional pos:70
+Mat stayed silent for a whole minute, lost in the moving image of his daughter on his desk.
+
+With a sigh, he forced his gaze back to Hanna.
+
+Mat: She has been gone for many years now.
+
+@char Hanna.Tearful pos:30
+Hanna's smile faded.
+
+Hanna: I am sorry for your loss.
+
+@char Mat pos:70
+Mat: She was born without legs. A congenital amputee.
+
+Mat gave Hanna a half-smile.
+
+Mat: Her mother died shortly after due to complications from the cesarean she had to have.
+Mat: My daughter grew up without a mother.
+Mat: Despite that and her disability, she never let it slow her down.
+Mat: She was so full of life and wonder.
+
+Mat: She said she wanted to become either a fairy princess or a horse when she grew up.
+Mat: When I asked her why, she said she wanted to <wave>fly like a bird</wave> or <wave>run like the wind</wave>.
+
+Mat's gaze drifted to the holographic frame.
+
+Mat: She was the reason I invested my family's money into building this company.
+Mat: She was the first patient and our first <shake>failure</shake>.
+Mat: That was thirty years ago.
+
+@char Hanna.Suspicious pos:30
+Hanna: Are you saying she died during the same procedure you are asking me to do?
+
+@char Mat pos:70
+Mat: No. Not the same procedure.
+Mat: We didn't have the level of technology we have now. We haven't lost a patient since her.
+Mat: I am sharing this with you, but you need to understand how serious I am about helping you.
+Mat: When I lost her… I vowed I would make it up to her someday, somehow.
+Mat: The spinal reconstruction procedure has been completed a thousand times.
+Mat: But the new womb procedure has never been tried. You would be the first.
+
+@char Hanna pos:30
+Hanna shifted her gaze back to her lap.
+
+Hanna: I see. So, I'm the guinea pig.
+Hanna: Or, I guess, the lab rat since guinea pigs are extinct.
+
+@char Mat.Suit pos:70
+Mat: You are still eligible for the LAMP.
+Mat: One additional test is needed to see if you are eligible for the GENIE.
+
+@goto Scene1_7_LAMPandGENIE

@@ -1,0 +1,44 @@
+; ============================================================
+; Scene 1.1 — The Holographic Horse
+; ============================================================
+; Location: Office
+; Characters: Hanna, Mat
+; Summary: Hanna is distracted by a holographic horse on Mat's
+;          tie, establishing the sci-fi setting and her personality.
+; ============================================================
+
+; [Music: Act1Theme]
+@printer TADialogue
+@back Office
+@char Mat.Suit pos:70
+@char Hanna.Wheelchair pos:30
+
+Mat: Mrs. Shazi, your emergency contact information is blank.
+Mat: Did you want me to add someone?
+
+Hanna didn't acknowledge the deep sepia-skinned man behind the mahogany desk.
+She was too focused on the holographic horse running across his merlot tie.
+
+Mat: Mrs. Shazi?
+
+; [SFX: HolographicShimmer]
+@char Hanna.Suspicious pos:30
+Hanna shut her eyes and lifted her chin. When she opened them, she was staring at the man's amber eyes behind his thick horn-rimmed glasses.
+
+Hanna: Your tie is distracting.
+
+Mat looked down and nodded.
+
+Mat: I do apologize. I thought I had turned that off.
+
+; [SFX: HolographicHorse]
+The man gripped the tie's knot and squeezed it twice.
+The animated horse <wave>leaped from the tie onto the silvery cloth of his suit.</wave>
+The horse <wave>jumped over each embroidered paisley design, leaped from his shoulder, and disappeared.</wave>
+
+Hanna saw the horse reappear in a picture of a rickety old red barn on a shelf behind him.
+The horse went into the barn and disappeared as the door shut behind it.
+
+Hanna blinked a couple more times as she stared at the picture of the barn.
+
+@goto Scene1_2_MaritalStatus

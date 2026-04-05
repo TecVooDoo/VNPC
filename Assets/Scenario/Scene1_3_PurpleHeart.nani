@@ -1,0 +1,54 @@
+; ============================================================
+; Scene 1.3 — The Purple Heart Program
+; ============================================================
+; Location: Office
+; Characters: Hanna, Mat
+; Summary: Mat explains the free surgery under Nightwick's Purple
+;          Heart program. Hanna pushes back on her eligibility.
+; ============================================================
+
+@printer TADialogue
+@back Office
+@char Hanna.Wheelchair pos:30
+@char Mat.Suit pos:70
+
+Mat didn't move in his chair. His fingers remained steepled, and his smile never faltered.
+
+Mat: You are to be the first to receive surgery under Nightwick's Purple Heart program.
+Mat: The surgery will be at no cost to you.
+Mat: We are proud to give back to our servicemen and wom—
+
+; [SFX: WheelchairBrake]
+@char Hanna.Angry pos:30
+Hanna: Ha! Well, Mat, you should have done a little more research on me.
+Hanna: I received a <shake>dishonorable discharge</shake>.
+Hanna: I can't get free medical care at the VA, much less be eligible for a Purple Heart program.
+Hanna: Since this has all been a mistake, I will show myself out.
+
+Hanna released the brakes on her wheels and spun towards the door.
+
+Mat: Hanna.
+
+; [SFX: Footsteps]
+@char Mat.Kneeling pos:50
+@char Hanna.Suspicious pos:30
+Mat stood and walked around his desk. He knelt next to her side, so she was looking down at him.
+
+Mat: I am fully aware of your discharge status.
+Mat: Again, this is my company.
+Mat: Our Purple Heart program is for those that served their country and were injured in the line of duty.
+Mat: There is no stipulation on the type of discharge. There is no mistake.
+
+Mat placed a hand over Hanna's.
+
+@char Hanna.Angry pos:30
+Hanna's eyes became slits, and she breathed once through her nose.
+
+Hanna: If you don't remove your hand, you are going to <shake>lose it</shake>.
+
+; [SFX: Footsteps]
+Mat pulled his hand back and returned to his desk.
+
+@char Mat.Suit pos:70
+
+@goto Scene1_4_WhyMe

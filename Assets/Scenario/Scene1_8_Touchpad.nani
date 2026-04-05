@@ -1,0 +1,61 @@
+; ============================================================
+; Scene 1.8 — The Touchpad
+; ============================================================
+; Location: Office
+; Characters: Hanna, Mat
+; Summary: Mat pulls out a touchpad for the final test. Hanna
+;          touches it and is drugged. Mat wheels her out.
+; ============================================================
+
+@printer TADialogue
+@back Office
+@char Hanna.Smirking pos:30
+@char Mat.Suit pos:70
+
+Mat waved his hand beside his head.
+
+Mat: It is nothing. It is not even invasive.
+
+; [SFX: DrawerOpen]
+Mat reached into a drawer, pulled out a large touchpad, and set it on the desk.
+
+Mat: Just rub your hand across this pad.
+
+@char Hanna.Suspicious pos:30
+Hanna twisted her mouth and squinted her eyes at the pad.
+
+Hanna: That's it?
+
+Mat: That is it.
+
+Hanna reached her hand out until it hovered over the edge of the black pad.
+
+With a small sigh, she laid the weight of her hand down and pulled it across.
+
+; [SFX: TouchpadBeep]
+A green light appeared with an accompanying beep from the touchpad.
+
+@char Mat.Suit pos:70
+Mat smiled and removed the device from the desk.
+
+Mat: That green light means you are about to start your new life.
+
+@char Hanna pos:30
+Hanna blinked. Then blinked again. Her head began to nod.
+
+Hanna: I am suddenly very <wiggle>slee—</wiggle>
+
+@char Mat pos:70
+Mat: Sleepy. Yes.
+
+; [SFX: WheelchairBrake]
+Mat got up from behind his desk, walked to Hanna's wheelchair, and unlocked her brakes.
+
+Mat: Let's get you somewhere more comfortable.
+
+Hanna didn't respond.
+
+; [Music: Fade]
+@back Black time:2
+
+@goto Transition

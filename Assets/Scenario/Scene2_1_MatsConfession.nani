@@ -1,0 +1,81 @@
+; ============================================================
+; Scene 2.1 — Mat's Confession
+; ============================================================
+; Location: OperatingRoom
+; Characters: Hanna, Mat
+; Summary: Mat reveals Hanna's location, the LAMP success, her
+;          eleven-month coma, and the baby she's about to deliver.
+; ============================================================
+
+@printer TADialogue
+@back OperatingRoom
+; [Music: Act2Theme]
+
+; [SFX: HotBreath]
+@char Mat.Scrubs pos:70
+
+Hanna could feel hot breath on her ear.
+
+Mat: Hanna, please. You need to relax. The surgery was a success, and you are safe.
+
+Hanna tried to form words but only managed to slur.
+
+@char Hanna.Pain pos:30
+Hanna: Ces—
+
+Mat: Sorry, I did not understand that.
+
+Mat's breath moved to her chin, and Hanna felt skin brush her lips.
+
+Hanna felt the sensation of her left shoulder pressed on cloth on a hard surface. She dared to crack an eye again.
+
+The light still hurt, but not as badly. Everything was a blur.
+
+Hanna: Cesss… sar—
+
+Mat: Ah. You must have heard.
+Mat: No. We will not be doing a cesarean. This birth must be natural.
+Mat: Congratulations, you are about to become a mother to a little girl. My little girl.
+
+; [SFX: HeartbeatSpike]
+Hanna felt as if she had a shot of adrenaline pumped straight into her heart.
+
+She closed her one open eye, then opened both. She managed a couple of blinks. Her vision began to come into focus.
+
+She could see a person in surgical scrubs leaning in front of her. Mat's grinning face came into view.
+
+Hanna: How?
+
+Mat held his hand in front of her face and began ticking off fingers.
+
+Mat: Well, first, you were brought to the island. Welcome to the island of Minyoti, by the way.
+Mat: Second, the LAMP was successful. Congratulations, you can walk again.
+Mat: Third, you were placed in a <wiggle>coma</wiggle> after impregnating you with the GENIE until that wonderful baby reached full term.
+Mat: Do not worry. You have been under the best medical care for these last eleven months.
+
+@char Hanna.Angry pos:30
+Hanna: Wh—why?
+
+@char Mat.Scrubs pos:70
+Mat bent down to look Hanna in the eyes and pointed at her.
+
+Mat: Let us just say the old mare just ain't what she used to be.
+
+A wide-toothed smile stretched across his face.
+
+Mat: You met all the genetic requirements for the GENIE to be viable.
+Mat: But, I couldn't take the chance you would eat or drink the wrong thing and endanger my daughter's health.
+Mat: So you were <wiggle>put down</wiggle> for a while.
+Mat: Don't worry. You were also selected because you wanted to be a mother.
+Mat: My daughter deserves a mother that is a survivor. Someone willing to do anything to have a child.
+
+Hanna felt her fingers twitch as she tried to clench her fists.
+
+Hanna: Your daughter. Not mine.
+
+; [SFX: HeartRateAlarm]
+An electronic shrill came from somewhere in the room, followed by four clacking noises.
+
+A woman's voice called out. "Her heart rate is spiking. She needs to calm down."
+
+@goto Scene2_2_Contractions

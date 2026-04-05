@@ -1,0 +1,352 @@
+{
+    "Assets": [
+        {
+            "guid": "4fa6d62f894ae6e4698bfa8af59e7942",
+            "prefix": "ChoiceHandlers",
+            "path": "ButtonArea",
+            "group": "ChoiceHandlers/dceef5ab-d2f6-44e2-b95c-bce3b7593106"
+        },
+        {
+            "guid": "1f6aa29000e839c409e6a9c0704adc96",
+            "prefix": "ChoiceHandlers",
+            "path": "ButtonList",
+            "group": "ChoiceHandlers/0ff27904-af1e-4456-8787-76e7cdfc08a1"
+        },
+        {
+            "guid": "0e61df696cabbea448510879ee732b00",
+            "prefix": "ChoiceHandlers",
+            "path": "ChatReply",
+            "group": "ChoiceHandlers/892470bb-b209-47b9-8821-c2b428129c85"
+        },
+        {
+            "guid": "dc495c968203f3a4a992214427fc2a62",
+            "prefix": "Scripts",
+            "path": "1-Basics",
+            "group": ""
+        },
+        {
+            "guid": "05483f700f1c5694a9daa68761733bf9",
+            "prefix": "Scripts",
+            "path": "2-DialogueEvents",
+            "group": ""
+        },
+        {
+            "guid": "bf46247cea7112c4681c3d311d6bf96b",
+            "prefix": "Scripts",
+            "path": "3-CharacterEvents",
+            "group": ""
+        },
+        {
+            "guid": "c6660057b92a23d419c4bcba89b9735a",
+            "prefix": "Scripts",
+            "path": "4-Bubbles",
+            "group": ""
+        },
+        {
+            "guid": "2b3c0a2878f3a05439275efc6aec3864",
+            "prefix": "Scripts",
+            "path": "5-Timeline",
+            "group": ""
+        },
+        {
+            "guid": "2a7a46a0bd7f430a95edd54be4381b51",
+            "prefix": "Scripts",
+            "path": "Entry",
+            "group": ""
+        },
+        {
+            "guid": "6fcd8083a72cdb84e8dd710e0b238a1a",
+            "prefix": "Scripts",
+            "path": "GITT_Entry",
+            "group": ""
+        },
+        {
+            "guid": "480fb8ef096f3da4291834359cf361bf",
+            "prefix": "Scripts",
+            "path": "GITT_Phase2Test",
+            "group": ""
+        },
+        {
+            "guid": "f957e73fd6b9e4446a835f4d80c0d224",
+            "prefix": "Scripts",
+            "path": "GITT_SyntaxTest",
+            "group": ""
+        },
+        {
+            "guid": "8ff898da37b9abe4aadeca87aedbcc6f",
+            "prefix": "Scripts",
+            "path": "GITT_TATest",
+            "group": ""
+        },
+        {
+            "guid": "c903fe61fdc34a549ab7e6129f4684f0",
+            "prefix": "Scripts",
+            "path": "RouteA/Day1",
+            "group": ""
+        },
+        {
+            "guid": "9c57482fca0345e385356a61c6eeff05",
+            "prefix": "Scripts",
+            "path": "RouteA/Day2",
+            "group": ""
+        },
+        {
+            "guid": "61765c736ed94f8cbadba7da56f4a048",
+            "prefix": "Scripts",
+            "path": "RouteB/SceneX",
+            "group": ""
+        },
+        {
+            "guid": "5b4c1fbe76994593af78105ff54df576",
+            "prefix": "Scripts",
+            "path": "RouteB/SceneY",
+            "group": ""
+        },
+        {
+            "guid": "f55ebfee2120d1f4298e1f94ca1cd51c",
+            "prefix": "Scripts",
+            "path": "Scene1_1_HolographicHorse",
+            "group": ""
+        },
+        {
+            "guid": "7f6061d21ea28734297d21d02885c668",
+            "prefix": "Scripts",
+            "path": "Scene1_2_MaritalStatus",
+            "group": ""
+        },
+        {
+            "guid": "3f678d6f8710c93438505b8056273d04",
+            "prefix": "Scripts",
+            "path": "Scene1_3_PurpleHeart",
+            "group": ""
+        },
+        {
+            "guid": "22257958a75acd04a9b7f109aa98c791",
+            "prefix": "Scripts",
+            "path": "Scene1_4_WhyMe",
+            "group": ""
+        },
+        {
+            "guid": "ee2ff09b73419fc488d269597dbc468c",
+            "prefix": "Scripts",
+            "path": "Scene1_5_TheQuestion",
+            "group": ""
+        },
+        {
+            "guid": "9c4e76e5b75727f449de0b225dfc5067",
+            "prefix": "Scripts",
+            "path": "Scene1_6_MatsDaughter",
+            "group": ""
+        },
+        {
+            "guid": "5eb5379bd8e27fd4490dd4d759a78e5a",
+            "prefix": "Scripts",
+            "path": "Scene1_7_LAMPandGENIE",
+            "group": ""
+        },
+        {
+            "guid": "4ddbbdb204bc0b4479e8c75f116dd52d",
+            "prefix": "Scripts",
+            "path": "Scene1_8_Touchpad",
+            "group": ""
+        },
+        {
+            "guid": "05a93d8eef4ef4846a3348612added76",
+            "prefix": "Scripts",
+            "path": "Scene2_1_MatsConfession",
+            "group": ""
+        },
+        {
+            "guid": "be8cd375930a88f469cf878eaf46f701",
+            "prefix": "Scripts",
+            "path": "Scene2_2_Contractions",
+            "group": ""
+        },
+        {
+            "guid": "cef7eec3c2ec1af45832bb26b87a1cf7",
+            "prefix": "Scripts",
+            "path": "Scene2_3_TheWrongBaby",
+            "group": ""
+        },
+        {
+            "guid": "9c0596ab5b3ee594ea3d1ba26d213164",
+            "prefix": "Scripts",
+            "path": "Scene2_4_ChimeraReveal",
+            "group": ""
+        },
+        {
+            "guid": "7cb9a772e72fc404a8bb4abd3a2af706",
+            "prefix": "Scripts",
+            "path": "Scene2_5_MatsAttack",
+            "group": ""
+        },
+        {
+            "guid": "3e16e8f5a6cb74f44a8fbff26d483ebf",
+            "prefix": "Scripts",
+            "path": "Scene2_6_CentaurReveal",
+            "group": ""
+        },
+        {
+            "guid": "4bbbe66e501fe774fb9c3094b7e11173",
+            "prefix": "Scripts",
+            "path": "Scene2_7_MeetingAladin",
+            "group": ""
+        },
+        {
+            "guid": "c7181eab9f5340aa90f235d3427259a6",
+            "prefix": "Scripts",
+            "path": "SecretRoute",
+            "group": ""
+        },
+        {
+            "guid": "bda60d0d1dbf4462925ad5b7f693cb44",
+            "prefix": "Scripts",
+            "path": "Title",
+            "group": ""
+        },
+        {
+            "guid": "929a3aa1a4dee4845859cda2b6e27835",
+            "prefix": "Scripts",
+            "path": "Transition",
+            "group": ""
+        },
+        {
+            "guid": "7bf06fa813bb9c34daf521998fa72ab1",
+            "prefix": "Spawn",
+            "path": "Animate",
+            "group": ""
+        },
+        {
+            "guid": "e466d9326b30a4b49a3dad428b4d9968",
+            "prefix": "Spawn",
+            "path": "Blur",
+            "group": ""
+        },
+        {
+            "guid": "ea76638b26a915946b62907dd1e776fd",
+            "prefix": "Spawn",
+            "path": "DepthOfField",
+            "group": ""
+        },
+        {
+            "guid": "be75a73ecccb90b4caa5c14edb9ac467",
+            "prefix": "Spawn",
+            "path": "DigitalGlitch",
+            "group": ""
+        },
+        {
+            "guid": "a9117e2fa90704d45b3e1461596c11ee",
+            "prefix": "Spawn",
+            "path": "Rain",
+            "group": ""
+        },
+        {
+            "guid": "9f56c556ba32fd54fae62347c25a8145",
+            "prefix": "Spawn",
+            "path": "ShakeBackground",
+            "group": ""
+        },
+        {
+            "guid": "1c5b86cf3cfbb1f44ae5641699077da4",
+            "prefix": "Spawn",
+            "path": "ShakeCamera",
+            "group": ""
+        },
+        {
+            "guid": "1224d69e1592d624cbde93d0f7383d91",
+            "prefix": "Spawn",
+            "path": "ShakeCharacter",
+            "group": ""
+        },
+        {
+            "guid": "2795040988e866646801c80024c50be1",
+            "prefix": "Spawn",
+            "path": "ShakePrinter",
+            "group": ""
+        },
+        {
+            "guid": "9f4e71cb27fffa04486737d2cf8d622d",
+            "prefix": "Spawn",
+            "path": "Snow",
+            "group": ""
+        },
+        {
+            "guid": "c4bf810b9b6cc9f44a58fd670678ded4",
+            "prefix": "Spawn",
+            "path": "SunShafts",
+            "group": ""
+        },
+        {
+            "guid": "b47d9659b2be5ee4e95a776f213c9d4b",
+            "prefix": "TextPrinters",
+            "path": "Bubble",
+            "group": "TextPrinters/13b0cd72-da1a-4bb4-aa2e-738929b1f724"
+        },
+        {
+            "guid": "6f9836a3c4f777741b1962979d97e485",
+            "prefix": "TextPrinters",
+            "path": "Chat",
+            "group": "TextPrinters/419b9ede-62c5-4265-9717-2c4779f468fe"
+        },
+        {
+            "guid": "1bc08ccd31adff6439e97161aa6e1d8b",
+            "prefix": "TextPrinters",
+            "path": "Dialogue",
+            "group": "TextPrinters/0491e24f-9d1e-4f58-bcec-8fa528e91331"
+        },
+        {
+            "guid": "c87cebd3f0d4f174789cd351ce9591c4",
+            "prefix": "TextPrinters",
+            "path": "Fullscreen",
+            "group": "TextPrinters/f58ac4f1-b4af-47bc-81c8-d83c34735c78"
+        },
+        {
+            "guid": "781828b806deb1e4cbf50ef9de41da10",
+            "prefix": "TextPrinters",
+            "path": "Wide",
+            "group": "TextPrinters/c1a3ea80-7ac4-47a4-b359-39847b6b98fc"
+        },
+        {
+            "guid": "702c32b2de0c0784b9a66ec90601874f",
+            "prefix": "UI",
+            "path": "ClickThroughPanel",
+            "group": ""
+        },
+        {
+            "guid": "88d03f19bcbff914ba33a7c9895e2d7c",
+            "prefix": "UI",
+            "path": "ConfirmationUI",
+            "group": ""
+        },
+        {
+            "guid": "f9a211517d1cb1a44964dc2254463049",
+            "prefix": "UI",
+            "path": "MovieUI",
+            "group": ""
+        },
+        {
+            "guid": "e3b234b4273b7f64ab3f1d9fe425ed23",
+            "prefix": "UI",
+            "path": "SceneTransitionUI",
+            "group": ""
+        },
+        {
+            "guid": "735d6aa767879aa469134858c5b2f0a7",
+            "prefix": "UI",
+            "path": "ScriptNavigatorUI",
+            "group": ""
+        },
+        {
+            "guid": "dd85ce99288c2f8488447fa511b1c0d6",
+            "prefix": "UI",
+            "path": "ToastUI",
+            "group": ""
+        },
+        {
+            "guid": "bb95f484e341dcd4391a572f22b7d067",
+            "prefix": "UI",
+            "path": "VariableInputUI",
+            "group": ""
+        }
+    ]
+}

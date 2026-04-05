@@ -1,0 +1,9 @@
+; ============================================================
+; GITT Entry Point
+; ============================================================
+; Starts the Genie in a Test Tube visual novel.
+; Set this as the Start Script in Naninovel configuration.
+; ============================================================
+
+@printer TADialogue
+@goto Scene1_1_HolographicHorse

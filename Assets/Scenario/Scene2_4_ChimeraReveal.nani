@@ -1,0 +1,67 @@
+; ============================================================
+; Scene 2.4 — Chimera Reveal
+; ============================================================
+; Location: OperatingRoom
+; Characters: Hanna, Mat
+; Summary: Mat threatens with a scalpel. Hanna fights back with
+;          the IV pole and reveals she's a chimera—two sets of DNA.
+; ============================================================
+
+@printer TADialogue
+@back OperatingRoom
+
+@char Mat.Enraged pos:70
+Mat lowered his voice and picked up a scalpel. He took three steps toward Hanna until he was an arm's length away.
+
+Mat: It is <shake>not my daughter</shake>. The child has red hair, green eyes, and is a boy.
+Mat: It is not possible. I checked your DNA myself. <shake>It is not possible.</shake>
+
+; [SFX: SuddenLaugh]
+@char Hanna.Smirking pos:30
+The sudden burst of laughter from Hanna made Mat take a step back.
+
+She looked up at him and smiled.
+
+Hanna: You're right. It is my fault.
+
+; [SFX: MetalSwing]
+Hanna grabbed the IV pole, swung it, and made contact with Mat's head.
+
+@char Mat.Shocked pos:70
+Mat stumbled to the side but recovered quickly. He kept his distance from Hanna as she swung the pole around frantically.
+
+@char Hanna.Smirking pos:30
+Hanna stopped trying to hit him and smiled again.
+
+Hanna: So, Mat, despite all your research into me, you missed one important thing.
+
+@char Mat.Enraged pos:70
+Mat took a step towards the curtain.
+
+Mat: Impossible. I had all your military records, all your medical files from the past fifteen years.
+
+Hanna: Yes, but you didn't go back far enough.
+
+Hanna rested the IV pole next to the bed and began pulling at the strap across her waist.
+
+Hanna: You see, Mat, I was a twin.
+
+Mat took another step towards the curtain.
+
+Mat: There is no record of that in your files.
+
+; [SFX: BabyCrying]
+A baby began to cry from the other side of the curtain.
+
+Hanna started working the strap's buckle loose as she watched Mat.
+
+Hanna: There wouldn't be, because I absorbed my twin in the womb.
+Hanna: Have you ever heard of a <wave>chimera</wave>, Mat?
+Hanna: It means I was born with <wave>two sets of DNA</wave>.
+
+@char Mat.Shocked pos:70
+Mat's mouth dropped open as the realization dawned on him.
+
+Mat: If—if that is true, your second set of DNA could have disrupted the embryo's growth.
+
+@goto Scene2_5_MatsAttack

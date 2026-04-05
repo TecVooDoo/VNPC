@@ -1,0 +1,93 @@
+; ============================================================
+; Scene 2.6 — Centaur Reveal
+; ============================================================
+; Location: OperatingRoom -> OperatingRoomRevealed
+; Characters: Hanna, Mat, Nurse, Doctor
+; Summary: The nurse kicks Mat across the room. The curtain falls,
+;          revealing that Hanna, the nurse, and doctor are centaurs.
+; ============================================================
+
+@printer TADialogue
+@back OperatingRoom
+@char Hanna.Pain pos:50
+
+The curtain ruffled, and the woman shouted from behind it. "You will not hurt this child."
+
+; [SFX: HoofKick]
+Two quick, heavy clacking noises came from behind the curtain—
+
+; [SFX: BodyImpact]
+—and then Mat flew backward across the room.
+
+As he soared by, he ripped the curtain, hitting the far wall and sliding down into a bloody heap.
+
+@hide Mat
+
+The curtain fell onto Hanna's waist.
+
+@back OperatingRoomRevealed time:1
+
+Hanna turned her head to see the back of a horse.
+
+The horse's body ended at the neck, and where the head should have been was a woman's body dressed in surgical scrubs.
+
+; [SFX: HannaScream]
+Hanna screamed.
+
+; [SFX: HoofClop]
+@char Nurse.Protective pos:70
+The half-woman, half-horse clomped her way to Hanna's side.
+
+Nurse: Please, don't be afraid. We won't hurt you.
+
+Hanna moved her head between the woman's blue eyes and the spotted white and brown body that ended in a thick tail.
+
+Hanna: What—<shake>what are you</shake>?
+
+@char Doctor.Calm pos:30
+@char Hanna.Pain pos:50
+@char Nurse.Protective pos:70
+
+The man padded around the corner into view. His face was wrapped in a mask, but his midsection ended at the beginning of another horse's brown body.
+
+Doctor: You mean, what are we?
+
+The doctor motioned his hand towards the end of the table and removed the curtain.
+
+; [SFX: HannaScream]
+Hanna screamed again at the sight of a black horse body lying on the table with her waist attached where the horse's head should have been.
+
+She began sucking air in hard breaths, and her vision darkened.
+
+; [SFX: OxygenMask]
+@char Nurse.Protective pos:70
+The nurse grabbed an oxygen mask and placed it on Hanna's mouth.
+
+Nurse: Just breathe. It's going to be alright.
+
+Hanna took some deep breaths, and the darkness slowly left her sight. She nodded.
+
+@char Hanna.Angry pos:50
+Hanna: What—what is this? <shake>What the hell did that psycho do to me?</shake>
+
+Nurse: He did the same thing to all of us.
+
+The nurse removed the oxygen mask and turned back to Hanna.
+
+Nurse: The surgery fixed your legs by turning you into a centaur.
+Nurse: One thousand of us have received the LAMP, and we're stranded on this island.
+Nurse: You make <wave>one thousand and one</wave>.
+Nurse: But, you are the first to have a baby.
+
+@char Hanna.Pain pos:50
+Hanna tried to move again but could only lift her waist.
+
+Hanna: It feels strange and isn't responding.
+
+@char Doctor.Calm pos:30
+The doctor smiled down at Hanna.
+
+Doctor: It will take some time for you to learn how to use your new body.
+Doctor: But, you will learn, and you will be able to walk again.
+
+@goto Scene2_7_MeetingAladin

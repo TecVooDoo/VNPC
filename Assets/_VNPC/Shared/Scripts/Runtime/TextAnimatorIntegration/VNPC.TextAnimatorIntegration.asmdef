@@ -1,0 +1,19 @@
+{
+    "name": "VNPC.TextAnimatorIntegration",
+    "rootNamespace": "VNPC.TextAnimatorIntegration",
+    "references": [
+        "Elringus.Naninovel.Runtime",
+        "Febucci.TextAnimatorForUnity.Runtime",
+        "Febucci.TextAnimatorForUnity.TMP.Runtime",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

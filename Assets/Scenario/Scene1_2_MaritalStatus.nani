@@ -1,0 +1,72 @@
+; ============================================================
+; Scene 1.2 — Emergency Contact / Marital Status
+; ============================================================
+; Location: Office
+; Characters: Hanna, Mat
+; Summary: Mat "discovers" Hanna is divorced. She corrects his
+;          address, notices the chandelier, and they drop formalities.
+; ============================================================
+
+@printer TADialogue
+@back Office
+@char Hanna.Wheelchair pos:30
+@char Mat.Suit pos:70
+
+Mat: Mrs. Shazi?
+
+@char Hanna.Suspicious pos:30
+Hanna: It is Miss Shazi, Mr. Galanidi.
+
+Hanna leveled her green eyes back on Mr. Galanidi. Not a single curly black hair on his closely cropped head was out of place.
+
+@char Mat.Sympathetic pos:70
+Mat: Oh. I meant no disrespect, Ms. Shazi.
+Mat: You were referred to us by Mr. Antoine Shazi.
+Mat: It says here he has been your husband since 2052. So sixteen years now.
+
+Mr. Galanidi removed his glasses and placed them on the desk — the lenses went from blue with white text lines to black.
+He leaned back and steepled his fingers.
+
+Mat: Maybe we should update your file before we proceed.
+Mat: Tell me more about your family.
+
+@char Hanna.Angry pos:30
+Hanna: Antoine is my ex-husband, and he is still <shake>pissed</shake> I kept his last name.
+
+Hanna gripped the foam armrest pads of her six-month-old wheelchair and began rubbing each under her hands.
+She stopped when she realized she was being watched.
+
+@char Hanna.Suspicious pos:30
+She cocked her head to the side, eyeing the famous billionaire executive of Nightwick Incorporated.
+
+Hanna: Isn't patient intake a little beneath your paygrade?
+
+@char Mat pos:70
+Mr. Galanidi's face split into a wide smile.
+
+Mat: Well, it is my company, but you are right.
+Mat: Patient intake is not a typical job for me.
+Mat: However, I make an exception when there is an exceptional circumstance.
+
+Hanna snorted and rolled her eyes to the ceiling.
+Silhouettes of dolphins and mermaids <wave>swam around the crystal chandelier</wave> hanging from the high-pitched ceiling.
+
+@char Hanna.Suspicious pos:30
+She lowered her eyes back on Mr. Galanidi. He hadn't moved. Hanna met his unwavering gaze.
+
+Hanna: So, I'm an exceptional circumstance?
+
+Mat: Why yes you are, Ms. Sha—
+
+Hanna held up her hand.
+
+Hanna: Call me Hanna. My ex is still <shake>pissed</shake> I kept his name, but I am still <shake>pissed</shake> hearing it.
+
+Mat: Very well, Hanna. Since we are dispensing with formalities, please call me Mataleli.
+
+@char Hanna.Smirking pos:30
+One side of Hanna's lips crept up into a smirk, and she flipped her straight red hair to the side.
+
+Hanna: Ok, Mat. Tell me why I'm such an exceptional circumstance?
+
+@goto Scene1_3_PurpleHeart

@@ -1,0 +1,66 @@
+; ============================================================
+; Text Animator Integration Test
+; ============================================================
+; Tests Text Animator effects inside a Naninovel printer.
+; Run with the TADialogue printer to verify integration.
+; ============================================================
+
+; --- Test 1: Basic reveal (no TA effects) ---
+@printer TADialogue
+@back Mist
+This is plain text with no effects. It should reveal character by character.
+
+; --- Test 2: Wave effect ---
+This text has a <wave>wavy section</wave> in the middle.
+
+; --- Test 3: Shake effect ---
+This text has a <shake>shaking section</shake> here.
+
+; --- Test 4: Bounce effect ---
+This text has a <bounce>bouncing section</bounce> in it.
+
+; --- Test 5: Wiggle effect ---
+This text has a <wiggle>wiggling section</wiggle> right here.
+
+; --- Test 6: Mixed effects in one line ---
+Normal text, then <wave>wavy</wave>, then <shake>shaky</shake>, then normal again.
+
+; --- Test 7: Full line effect ---
+<wave>This entire line should be waving continuously.</wave>
+
+; --- Test 8: Character with effects ---
+@char Felix.Neutral pos:50
+Felix: I feel <shake>terrified</shake> right now.
+
+; --- Test 9: Character with multiple effects ---
+Felix: The ground is <shake>shaking</shake> and the sky is <wave>rippling</wave> above us.
+
+; --- Test 10: Narration with effects ---
+@hide Felix
+The room fell <wave>eerily</wave> silent. A cold <shake>shudder</shake> ran through the air.
+
+; --- Test 11: Click-to-skip test ---
+This is a long line of text that you should try clicking during reveal to test the skip behavior. When you click, all remaining text should appear instantly.
+
+; --- Test 12: Special characters with effects ---
+<wave>Em dash — smart quotes "hello" — ellipsis... apostrophe can't.</wave>
+
+; --- Test 13: Speed test (advance and compare) ---
+This line has normal speed.
+@wait 0.5
+This line also has normal speed. Compare the two.
+
+; --- Test 14: Multiple messages ---
+First message line.
+Second message line appended after the first.
+
+; --- Test 15: Tag survival check ---
+; If TA tags were stripped by Naninovel's parser, you'll see the raw tags as text.
+; If they work, you'll see animated text with no visible tags.
+Check: <wave>WAVE</wave> | <shake>SHAKE</shake> | <bounce>BOUNCE</bounce>
+
+; --- End ---
+@hide Felix
+@back Black time:0.5 wait!
+All Text Animator integration tests complete. If you saw animated wave, shake, and bounce effects, the integration is working.
+@stop

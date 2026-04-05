@@ -1,0 +1,57 @@
+; ============================================================
+; Transition — Waking in Darkness
+; ============================================================
+; Location: Black
+; Characters: Hanna (heard only), Mat, Nurse (voice), Doctor (voice)
+; Summary: Hanna wakes in darkness, unable to move, hearing
+;          arguing voices about nerve blocks and cesarean.
+; ============================================================
+
+@printer TADialogue
+@back Black
+
+; [Music: TransitionDrone]
+; [SFX: MuffledBeeping]
+Muffled sounds made their way through the dark. Several beeping sounds and strange clacking noises.
+
+Hanna's head felt heavy and <shake>pounding</shake>, as if horses were stampeding in her brain.
+
+She thought some of the clacking in the dark sounded like horse hooves, at least.
+
+She tried opening her eyes, but they were glued shut. She tried to raise a hand and found she couldn't feel her hand, arm, or anything below the neck.
+
+She only felt the throbbing pain in her skull.
+
+; [SFX: VoicesMuffled]
+One of the muffled sounds became clearer. It was Mat's voice.
+
+Mat: Why is she waking up?
+
+A woman's voice came from somewhere behind. "Sir, we knew this was a possibility when we removed the nerve block."
+
+Mat: Well, reactivate the block!
+
+; [SFX: Beeping]
+The woman's voice answered from far away. "Sir, we can't unless we do a cesarean. The block is preventing her contractions."
+
+Cesarean! Hanna struggled with the word.
+
+She forced an eye open to a slit, only to slam it shut as the harsh light felt like a dagger.
+
+; [SFX: SoftMoan]
+She tried to open her mouth to speak, but only a soft moan escaped.
+
+Mat: No, this needs to be a natural birth.
+
+Mat sounded inches from Hanna's ear.
+
+A man's deep voice came from the far side of the room. "Sir, you know the risks. This is the last embryo with these genetics, and this type of birth has never been attempted. If there are compli—"
+
+Mat: <shake>Make sure there aren't any!</shake>
+Mat: I promised her I would make it up to her. She <shake>needs</shake> a mother!
+
+The man's voice replied calmly. "Then, sir, she needs to remain calm. As her body starts to regain feeling."
+
+; [Music: Fade]
+
+@goto Scene2_1_MatsConfession

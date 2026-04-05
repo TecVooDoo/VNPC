@@ -1,0 +1,96 @@
+; ============================================================
+; GITT Syntax Validation Test
+; ============================================================
+; Purpose: Validates every Naninovel command and text feature
+; needed for GITT production. Run this before writing any
+; production scripts to confirm the pipeline works.
+; ============================================================
+
+; --- Test 1: Background ---
+@back Mist
+A background should be visible behind this text.
+
+; --- Test 2: Character with dialogue ---
+@char Felix.Neutral
+Felix: This is standard dialogue with an author name.
+
+; --- Test 3: Appearance change ---
+@char Felix.Happy
+Felix: My appearance just changed to Happy.
+
+; --- Test 4: Character positioning ---
+@char Felix pos:25 look:Right
+Felix: I should be on the left side, looking right.
+
+; --- Test 5: Narration (no author) ---
+@hide Felix
+This is narration text with no character name attached. It represents stage directions or internal thoughts.
+
+; --- Test 6: Special characters (UTF-8 validation) ---
+@char Felix.Neutral pos:50
+Felix: Testing special characters below.
+Felix: Em dash --- like this.
+Felix: Smart quotes: "Hello," she said. "How are you?"
+Felix: Ellipsis... trailing off.
+Felix: Apostrophe: I can't believe it.
+
+; --- Test 7: Music command (placeholder -- no file needed, will warn) ---
+; @bgm TestMusic
+; Uncomment the line above when audio files exist.
+
+; --- Test 8: SFX command (placeholder -- no file needed, will warn) ---
+; @sfx TestSound
+; Uncomment the line above when audio files exist.
+
+; --- Test 9: Screen shake ---
+Felix: The screen is about to shake.
+@shake
+
+; --- Test 10: Wait / Pacing ---
+Felix: There will be a 1-second pause after this line.
+@wait 1
+Felix: The pause is over.
+
+; --- Test 11: Background transition ---
+Felix: Transitioning to a new background.
+@back Desert time:1.5 wait!
+Felix: The background just changed with a 1.5 second transition.
+
+; --- Test 12: Hide character ---
+Felix: I am about to disappear.
+@hide Felix wait!
+
+; --- Test 13: Transition to black ---
+@back Black time:1 wait!
+@wait 1
+
+; --- Test 14: Printer switch (Fullscreen for internal monologue) ---
+@printer Fullscreen
+Where am I? Everything feels different. This is what internal monologue will look like in the Fullscreen printer -- longer passages of thought without a character name.
+@printer Dialogue
+
+; --- Test 15: Choice (cosmetic, non-branching) ---
+@back Mist time:0.5 wait!
+@char Felix.Neutral pos:50
+Felix: This is a cosmetic choice test. Both options lead to the same place.
+@choice "Where am I?"
+@choice "What happened?"
+Felix: Both choices led here. The choice system works.
+
+; --- Test 16: Inline command ---
+Felix: This text has an inline [shake] shake effect mid-sentence.
+
+; --- Test 17: Multiple characters ---
+@char Felix pos:25
+@char Felix pos:75 id:Felix2
+Felix: I am on the left.
+; Note: Second instance needs a different ID or use a second character.
+; For GITT, we will have Hanna and Mat side by side.
+
+; --- Test 18: Hide all and end ---
+Felix: Syntax validation complete! All commands tested.
+@hideAll wait!
+@back Black time:1 wait!
+All tests passed if you reached this point without errors.
+@wait 2
+@title

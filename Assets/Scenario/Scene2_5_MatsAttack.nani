@@ -1,0 +1,28 @@
+; ============================================================
+; Scene 2.5 — Mat's Attack
+; ============================================================
+; Location: OperatingRoom
+; Characters: Hanna, Mat
+; Summary: Mat threatens to kill Hanna and the baby. He goes
+;          behind the curtain. Hanna frees herself from the strap.
+; ============================================================
+
+@printer TADialogue
+@back OperatingRoom
+@char Hanna.Angry pos:30
+@char Mat.Enraged pos:70
+
+Mat brought the scalpel up into Hanna's view.
+
+Mat: Well, I will <shake>kill you</shake> for this, but first, I will <shake>kill your abomination</shake>.
+
+@char Hanna.Angry pos:50
+Mat disappeared behind the curtain.
+
+Hanna: <shake>Don't you touch my child</shake>, you bastard!
+
+Hanna freed herself from the waist strap.
+
+She was frantically trying to lift herself. She felt what she thought was her legs trying to move, but they weren't responding.
+
+@goto Scene2_6_CentaurReveal

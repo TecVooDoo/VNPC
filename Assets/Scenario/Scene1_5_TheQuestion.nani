@@ -1,0 +1,63 @@
+; ============================================================
+; Scene 1.5 — The Question
+; ============================================================
+; Location: Office
+; Characters: Hanna, Mat
+; Summary: Mat reveals he paid for Hanna's files. Hanna tells her
+;          story. Mat asks the question. Hanna breaks down.
+; ============================================================
+
+@printer TADialogue
+@back Office
+@char Hanna.Angry pos:30
+@char Mat.Suit pos:70
+
+Mat: Hacked is such an ugly term.
+Mat: I paid top dollar for access to your files.
+
+Mat leaned forward and stared into Hanna's slitted eyes.
+
+Mat: All your story tells me is you are a survivor. A strong woman with fierce determination.
+Mat: There is no denying you were done wrong.
+
+@char Mat.Suit pos:70
+Mat leaned back in his chair and assumed his steepled finger pose.
+
+Mat: I have listened to your tragic story, and I answered your question.
+Mat: Now, will you answer one question for me?
+
+@char Hanna.Angry pos:30
+The redness in Hanna's face had doubled in intensity, but she slowly nodded her head once.
+
+Mat: What would you give for the chance to be able to have children?
+
+Hanna opened her mouth to respond, but no sound came out.
+
+She inspected her hands still folded in her lap for a while.
+
+@char Hanna.Tearful pos:30
+A couple of blinks and a sigh later, she lifted tear-streaked cheeks.
+
+Hanna: I would give <wave>anything</wave> for the chance to have a baby.
+
+; [SFX: DeskSlap]
+@char Mat.Emotional pos:70
+Mat slapped his desk with both hands.
+
+Mat: That's the <bounce>right damn answer!</bounce>
+
+@char Hanna.Suspicious pos:30
+Hanna, eyes wide from his sudden outburst, stared at him.
+
+Hanna: Are you saying it's possible to fix my legs and—what—regrow my womb?
+
+@char Mat.Suit pos:70
+Mat's smile grew wider.
+
+Mat: Yes.
+
+Mat stood from his desk, turned and picked up a frame from a middle shelf.
+
+Mat: Do you like horses, Hanna?
+
+@goto Scene1_6_MatsDaughter
