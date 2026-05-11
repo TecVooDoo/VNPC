@@ -2,7 +2,7 @@
 
 **Purpose:** Track every asset, package, and technique evaluated for the VNPC toolkit project. This project serves as a shared base for multiple games (2 visual novels, 2 point-and-click adventures).
 
-**Last Updated:** March 9, 2026 (Session 4)
+**Last Updated:** May 11, 2026 (Session 12 -- Project Relevance tables updated post P&C split; AC/Ink entries marked as moved-to-standalone-project)
 
 ---
 
@@ -210,10 +210,12 @@ For the VNPC project, AC is the engine for the two planned P&C games (titles TBD
 
 | Game | Relevance | Notes |
 |------|-----------|-------|
-| Genie in a Test Tube (VN) | LOW | VN -- Naninovel handles this |
-| Encapsulated Fear (VN) | LOW | VN -- Naninovel handles this |
-| P&C Game 1 (title TBD) | HIGH | Primary engine. AC + Dialogue System + Ink stack. |
-| P&C Game 2 (title TBD) | HIGH | Same stack as P&C Game 1 |
+| Genie in a Test Tube (VN) | NONE | VN -- Naninovel handles this |
+| Encapsulated Fear (VN) | NONE | VN -- Naninovel handles this |
+| GRIMMORPG (P&C) | Moved out | Originally planned to use AC in VNPC. GRIMMORPG split to standalone project at `E:\Unity\GRIMMORPG` in April 2026 and dropped AC for a modular stack (Dialogue System + Ink + Animancer Pro + Easy Save 3 + Inventory Framework 2). |
+| P&C Game 2 (title TBD) | Moved out | Will live in its own project once source is written. Stack TBD. |
+
+Adventure Creator remains installed in VNPC for historical/cross-eval reference but is not used by any VNPC game.
 
 **Docs:** [Manual PDF](https://adventurecreator.org/files/Manual.pdf) | [Scripting Guide](https://adventurecreator.org/scripting-guide/) | [Tutorials](https://adventurecreator.org/tutorials) | [Forum](https://adventurecreator.org/forum/)
 
@@ -559,10 +561,10 @@ For the VNPC project, Naninovel is the engine for both VN games (Genie in a Test
 
 | Game | Relevance | Notes |
 |------|-----------|-------|
-| Genie in a Test Tube (VN) | HIGH | Primary engine. Naninovel + Text Animator stack. Currently in development. |
+| Genie in a Test Tube (VN) | HIGH | Primary engine. Naninovel + Text Animator stack. Phase 4 (TA polish) complete; Phase 5 (Audio) next. |
 | Encapsulated Fear (VN) | HIGH | Same stack. Second to develop. |
-| P&C Game 1 (title TBD) | LOW | P&C -- Adventure Creator handles this |
-| P&C Game 2 (title TBD) | LOW | P&C -- Adventure Creator handles this |
+| GRIMMORPG (P&C) | Moved out | Now standalone at `E:\Unity\GRIMMORPG`. Modular stack -- Naninovel not used there. |
+| P&C Game 2 (title TBD) | Moved out | Will live in its own project. |
 
 **Docs:** [Guide](https://naninovel.com/guide/) | [API/Commands](https://naninovel.com/api/) | [FAQ](https://naninovel.com/faq/) | [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Elringus.naninovel)
 
