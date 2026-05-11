@@ -211,6 +211,174 @@
             "group": ""
         },
         {
+            "guid": "33b6aa96fabf627438792f0c06d37e87",
+            "prefix": "Audio",
+            "path": "BabyCrying",
+            "group": ""
+        },
+        {
+            "guid": "0b14e5590d5352d49970da09717e34be",
+            "prefix": "Audio",
+            "path": "Beeping",
+            "group": ""
+        },
+        {
+            "guid": "1e3627bf74104664e96d964f5d10caa0",
+            "prefix": "Audio",
+            "path": "BodyImpact",
+            "group": ""
+        },
+        {
+            "guid": "91a1781b945f9ad419213d5a0463b2ec",
+            "prefix": "Audio",
+            "path": "Clacking",
+            "group": ""
+        },
+        {
+            "guid": "9d1003f5b2dd7e0439bbac38828c5875",
+            "prefix": "Audio",
+            "path": "ContractionHit",
+            "group": ""
+        },
+        {
+            "guid": "926c62c14a38f4646a9755b8119ba4dc",
+            "prefix": "Audio",
+            "path": "ContractionWave",
+            "group": ""
+        },
+        {
+            "guid": "3a8a1e4a80e82c94ea3183b1b3ea5cfa",
+            "prefix": "Audio",
+            "path": "DeskSlap",
+            "group": ""
+        },
+        {
+            "guid": "5d5b14253d1515b459c1b50bce0ebd9d",
+            "prefix": "Audio",
+            "path": "DrawerOpen",
+            "group": ""
+        },
+        {
+            "guid": "8465904da629be04fa98b4cd1aee4edb",
+            "prefix": "Audio",
+            "path": "Footsteps",
+            "group": ""
+        },
+        {
+            "guid": "0fd570865f398ad4bb514f322bbb9ba4",
+            "prefix": "Audio",
+            "path": "HannaScream",
+            "group": ""
+        },
+        {
+            "guid": "9a2c16b4c6df3b845b708634f8be58f2",
+            "prefix": "Audio",
+            "path": "HannaScream2",
+            "group": ""
+        },
+        {
+            "guid": "7dc54af79e68eb647bc31d86d5d7b54f",
+            "prefix": "Audio",
+            "path": "HeartRateAlarm",
+            "group": ""
+        },
+        {
+            "guid": "378a7f257042dd3408cd4e953ffbeb0c",
+            "prefix": "Audio",
+            "path": "HeartbeatSpike",
+            "group": ""
+        },
+        {
+            "guid": "b447c819ad83a1041b148dcf5bd6619b",
+            "prefix": "Audio",
+            "path": "HolographicHorse",
+            "group": ""
+        },
+        {
+            "guid": "5837452160e9b9f409bf522bf977c8c7",
+            "prefix": "Audio",
+            "path": "HolographicShimmer",
+            "group": ""
+        },
+        {
+            "guid": "064d990c42c455f46b80b5f1d14a378f",
+            "prefix": "Audio",
+            "path": "HoofClop",
+            "group": ""
+        },
+        {
+            "guid": "73c055880c4e803459597a44a2ba998c",
+            "prefix": "Audio",
+            "path": "HoofKick",
+            "group": ""
+        },
+        {
+            "guid": "060d1858d02f0dc49923e40c4331f83e",
+            "prefix": "Audio",
+            "path": "HotBreath",
+            "group": ""
+        },
+        {
+            "guid": "05f530a113a5e8b468d543ea1250a7d0",
+            "prefix": "Audio",
+            "path": "MetalCrash",
+            "group": ""
+        },
+        {
+            "guid": "074feeae9cffc9d409c384863ba86977",
+            "prefix": "Audio",
+            "path": "MetalSwing",
+            "group": ""
+        },
+        {
+            "guid": "01a1dfd3e214d6049af1476d5e70dd5f",
+            "prefix": "Audio",
+            "path": "MuffledBeeping",
+            "group": ""
+        },
+        {
+            "guid": "7eb7609270ea84d41b8a16d3e28c920e",
+            "prefix": "Audio",
+            "path": "OxygenMask",
+            "group": ""
+        },
+        {
+            "guid": "b416fb3bed4d6d846a9914892fec51bd",
+            "prefix": "Audio",
+            "path": "PhotoFrame",
+            "group": ""
+        },
+        {
+            "guid": "e761fc40140ebc346b8fa0971a8102c9",
+            "prefix": "Audio",
+            "path": "SoftMoan",
+            "group": ""
+        },
+        {
+            "guid": "1e2cd2c6f020a0c44b01e635c44aa5db",
+            "prefix": "Audio",
+            "path": "SuddenLaugh",
+            "group": ""
+        },
+        {
+            "guid": "52a98fe53f97729449537d9b727115f3",
+            "prefix": "Audio",
+            "path": "TouchpadBeep",
+            "group": ""
+        },
+        {
+            "guid": "adac3b79c34954c49bc1a13e1fd1b1cb",
+            "prefix": "Audio",
+            "path": "VoicesMuffled",
+            "group": ""
+        },
+        {
+            "guid": "f3731757f18b5254593289ef61caa2d8",
+            "prefix": "Audio",
+            "path": "WheelchairBrake",
+            "group": ""
+        },
+        {
             "guid": "7bf06fa813bb9c34daf521998fa72ab1",
             "prefix": "Spawn",
             "path": "Animate",

@@ -20,7 +20,7 @@ She was lying on her left side next to an IV pole with fluids running into her a
 
 A strap bound her right arm to her body while another stretched across her waist. Both secured her to the operating table.
 
-; [SFX: FranticClacking]
+@sfx FranticClacking
 The clacking noises sped up to a frantic pace behind the curtain.
 
 A man's deep voice said, "Sir, she needs to calm down. The baby's heart rate is rising too. It might be in distress."
@@ -41,7 +41,7 @@ Mat: However, despite science coming so far, five percent of your DNA will be pa
 Mat: Still, I will live with ninety-five percent of my daughter. This is the last of her usable DNA. It has to work.
 Mat: And you will be her mother.
 
-; [SFX: ContractionHit]
+@sfx ContractionHit
 @char Hanna.Pain pos:30
 Hanna opened her mouth to respond, but only a scream came out.
 
@@ -58,7 +58,7 @@ Mat: Is it time? Is she here?
 
 The woman's voice called out. "Almost. I can see the top of the head."
 
-; [SFX: ContractionWave]
+@sfx ContractionWave
 Hanna had lost all sense of her surroundings until the contraction let up.
 
 She realized the strap holding her arm had snapped in two. She wiped her face with her hand and placed it back on her side.

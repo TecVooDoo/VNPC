@@ -16,7 +16,7 @@ Mat waved his hand beside his head.
 
 Mat: It is nothing. It is not even invasive.
 
-; [SFX: DrawerOpen]
+@sfx DrawerOpen
 Mat reached into a drawer, pulled out a large touchpad, and set it on the desk.
 
 Mat: Just rub your hand across this pad.
@@ -32,7 +32,7 @@ Hanna reached her hand out until it hovered over the edge of the black pad.
 
 With a small sigh, she laid the weight of her hand down and pulled it across.
 
-; [SFX: TouchpadBeep]
+@sfx TouchpadBeep
 A green light appeared with an accompanying beep from the touchpad.
 
 @char Mat.Suit pos:70
@@ -48,7 +48,7 @@ Hanna: I am suddenly very <wiggle>slee—</wiggle>
 @char Mat pos:70
 Mat: Sleepy. Yes.
 
-; [SFX: WheelchairBrake]
+@sfx WheelchairBrake
 Mat got up from behind his desk, walked to Hanna's wheelchair, and unlocked her brakes.
 
 Mat: Let's get you somewhere more comfortable.

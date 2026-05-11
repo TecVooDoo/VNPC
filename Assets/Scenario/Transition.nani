@@ -11,7 +11,7 @@
 @back Black
 
 ; [Music: TransitionDrone]
-; [SFX: MuffledBeeping]
+@sfx MuffledBeeping
 Muffled sounds made their way through the dark. Several beeping sounds and strange clacking noises.
 
 Hanna's head felt heavy and <shake>pounding</shake>, as if horses were stampeding in her brain.
@@ -22,7 +22,7 @@ She tried opening her eyes, but they were glued shut. She tried to raise a hand 
 
 She only felt the throbbing pain in her skull.
 
-; [SFX: VoicesMuffled]
+@sfx VoicesMuffled
 One of the muffled sounds became clearer. It was Mat's voice.
 
 Mat: Why is she waking up?
@@ -31,14 +31,14 @@ A woman's voice came from somewhere behind. "Sir, we knew this was a possibility
 
 Mat: Well, reactivate the block!
 
-; [SFX: Beeping]
+@sfx Beeping
 The woman's voice answered from far away. "Sir, we can't unless we do a cesarean. The block is preventing her contractions."
 
 Cesarean! Hanna struggled with the word.
 
 She forced an eye open to a slit, only to slam it shut as the harsh light felt like a dagger.
 
-; [SFX: SoftMoan]
+@sfx SoftMoan
 She tried to open her mouth to speak, but only a soft moan escaped.
 
 Mat: No, this needs to be a natural birth.

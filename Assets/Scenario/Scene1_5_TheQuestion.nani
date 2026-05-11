@@ -40,7 +40,7 @@ A couple of blinks and a sigh later, she lifted tear-streaked cheeks.
 
 Hanna: I would give <wave>anything</wave> for the chance to have a baby.
 
-; [SFX: DeskSlap]
+@sfx DeskSlap
 @char Mat.Emotional pos:70
 Mat slapped his desk with both hands.
 

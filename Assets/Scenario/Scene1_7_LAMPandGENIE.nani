@@ -95,7 +95,7 @@ Hanna let out a long breath and closed her eyes.
 Hanna: Then yes.
 Hanna: Yes to both procedures and yes to agreeing to live on the island.
 
-; [SFX: DeskSlap]
+@sfx DeskSlap
 @char Mat.Emotional pos:70
 Mat slapped the desk with both hands again.
 

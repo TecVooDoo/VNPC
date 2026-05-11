@@ -11,7 +11,7 @@
 @back OperatingRoom
 ; [Music: Act2Theme]
 
-; [SFX: HotBreath]
+@sfx HotBreath
 @char Mat.Scrubs pos:70
 
 Hanna could feel hot breath on her ear.
@@ -37,7 +37,7 @@ Mat: Ah. You must have heard.
 Mat: No. We will not be doing a cesarean. This birth must be natural.
 Mat: Congratulations, you are about to become a mother to a little girl. My little girl.
 
-; [SFX: HeartbeatSpike]
+@sfx HeartbeatSpike
 Hanna felt as if she had a shot of adrenaline pumped straight into her heart.
 
 She closed her one open eye, then opened both. She managed a couple of blinks. Her vision began to come into focus.
@@ -73,7 +73,7 @@ Hanna felt her fingers twitch as she tried to clench her fists.
 
 Hanna: Your daughter. Not mine.
 
-; [SFX: HeartRateAlarm]
+@sfx HeartRateAlarm
 An electronic shrill came from somewhere in the room, followed by four clacking noises.
 
 A woman's voice called out. "Her heart rate is spiking. She needs to calm down."

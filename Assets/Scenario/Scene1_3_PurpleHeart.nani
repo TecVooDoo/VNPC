@@ -18,7 +18,7 @@ Mat: You are to be the first to receive surgery under Nightwick's Purple Heart p
 Mat: The surgery will be at no cost to you.
 Mat: We are proud to give back to our servicemen and wom—
 
-; [SFX: WheelchairBrake]
+@sfx WheelchairBrake
 @char Hanna.Angry pos:30
 Hanna: Ha! Well, Mat, you should have done a little more research on me.
 Hanna: I received a <shake>dishonorable discharge</shake>.
@@ -29,7 +29,7 @@ Hanna released the brakes on her wheels and spun towards the door.
 
 Mat: Hanna.
 
-; [SFX: Footsteps]
+@sfx Footsteps
 @char Mat.Kneeling pos:50
 @char Hanna.Suspicious pos:30
 Mat stood and walked around his desk. He knelt next to her side, so she was looking down at him.
@@ -46,7 +46,7 @@ Hanna's eyes became slits, and she breathed once through her nose.
 
 Hanna: If you don't remove your hand, you are going to <shake>lose it</shake>.
 
-; [SFX: Footsteps]
+@sfx Footsteps
 Mat pulled his hand back and returned to his desk.
 
 @char Mat.Suit pos:70

@@ -12,7 +12,7 @@
 @char Mat.Suit pos:70
 @char Hanna.Wheelchair pos:30
 
-; [SFX: WheelchairBrake]
+@sfx WheelchairBrake
 The wheelchair turned back to face Mat, and the brakes were reengaged.
 
 Hanna: Ok, Mat. Tell me why.

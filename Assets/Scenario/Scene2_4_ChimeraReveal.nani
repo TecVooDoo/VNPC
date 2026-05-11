@@ -16,7 +16,7 @@ Mat lowered his voice and picked up a scalpel. He took three steps toward Hanna 
 Mat: It is <shake>not my daughter</shake>. The child has red hair, green eyes, and is a boy.
 Mat: It is not possible. I checked your DNA myself. <shake>It is not possible.</shake>
 
-; [SFX: SuddenLaugh]
+@sfx SuddenLaugh
 @char Hanna.Smirking pos:30
 The sudden burst of laughter from Hanna made Mat take a step back.
 
@@ -24,7 +24,7 @@ She looked up at him and smiled.
 
 Hanna: You're right. It is my fault.
 
-; [SFX: MetalSwing]
+@sfx MetalSwing
 Hanna grabbed the IV pole, swung it, and made contact with Mat's head.
 
 @char Mat.Shocked pos:70
@@ -50,7 +50,7 @@ Mat took another step towards the curtain.
 
 Mat: There is no record of that in your files.
 
-; [SFX: BabyCrying]
+@sfx BabyCrying
 A baby began to cry from the other side of the curtain.
 
 Hanna started working the strap's buckle loose as she watched Mat.

@@ -23,7 +23,7 @@ Hanna's eyes filled with tears.
 
 Hanna: Is—is he <wiggle>normal</wiggle>?
 
-; [SFX: HoofClop]
+@sfx HoofClop
 @char Doctor.Calm pos:30
 The doctor stepped to the back of the room, his hooves making clacking noises as he walked.
 

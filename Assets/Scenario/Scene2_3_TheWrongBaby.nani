@@ -16,14 +16,14 @@ Mat peeked his face from behind the curtain, sporting a smile from ear to ear.
 @char Mat.Scrubs pos:70
 Mat: You did it. You did it, Hanna.
 
-; [SFX: Clacking]
+@sfx Clacking
 More clacking sounds came from the other side of the room.
 
 A man's deep voice said, "Uh, Sir. You need to see this."
 
 Mat turned his head, and the smile disappeared.
 
-; [SFX: MetalCrash]
+@sfx MetalCrash
 @char Mat.Enraged pos:70
 He hit a surgical tray, and metal tools crashed to the ground.
 

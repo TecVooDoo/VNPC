@@ -13,10 +13,10 @@
 
 The curtain ruffled, and the woman shouted from behind it. "You will not hurt this child."
 
-; [SFX: HoofKick]
+@sfx HoofKick
 Two quick, heavy clacking noises came from behind the curtain—
 
-; [SFX: BodyImpact]
+@sfx BodyImpact
 —and then Mat flew backward across the room.
 
 As he soared by, he ripped the curtain, hitting the far wall and sliding down into a bloody heap.
@@ -31,10 +31,10 @@ Hanna turned her head to see the back of a horse.
 
 The horse's body ended at the neck, and where the head should have been was a woman's body dressed in surgical scrubs.
 
-; [SFX: HannaScream]
+@sfx HannaScream
 Hanna screamed.
 
-; [SFX: HoofClop]
+@sfx HoofClop
 @char Nurse.Protective pos:70
 The half-woman, half-horse clomped her way to Hanna's side.
 
@@ -54,12 +54,12 @@ Doctor: You mean, what are we?
 
 The doctor motioned his hand towards the end of the table and removed the curtain.
 
-; [SFX: HannaScream]
+@sfx HannaScream2
 Hanna screamed again at the sight of a black horse body lying on the table with her waist attached where the horse's head should have been.
 
 She began sucking air in hard breaths, and her vision darkened.
 
-; [SFX: OxygenMask]
+@sfx OxygenMask
 @char Nurse.Protective pos:70
 The nurse grabbed an oxygen mask and placed it on Hanna's mouth.
 

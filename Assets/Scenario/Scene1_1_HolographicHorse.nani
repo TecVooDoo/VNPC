@@ -21,7 +21,6 @@ She was too focused on the holographic horse running across his merlot tie.
 
 Mat: Mrs. Shazi?
 
-; [SFX: HolographicShimmer]
 @char Hanna.Suspicious pos:30
 Hanna shut her eyes and lifted her chin. When she opened them, she was staring at the man's amber eyes behind his thick horn-rimmed glasses.
 
@@ -31,8 +30,9 @@ Mat looked down and nodded.
 
 Mat: I do apologize. I thought I had turned that off.
 
-; [SFX: HolographicHorse]
+@sfx HolographicShimmer
 The man gripped the tie's knot and squeezed it twice.
+@sfx HolographicHorse
 The animated horse <wave>leaped from the tie onto the silvery cloth of his suit.</wave>
 The horse <wave>jumped over each embroidered paisley design, leaped from his shoulder, and disappeared.</wave>
 
