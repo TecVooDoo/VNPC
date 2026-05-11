@@ -1,16 +1,1 @@
-﻿{
-    "permissions":  {
-                        "allow":  [
-                                      "Bash(*)",
-                                      "PowerShell(*)",
-                                      "Read(*)",
-                                      "Bash(git push origin main*)",
-                                      "Bash(git push origin HEAD*)",
-                                      "Read(.claude/settings.json)",
-                                      "Read(.claude/settings.local.json)"
-                                  ],
-                        "additionalDirectories":  [
-                                                      "C:\\Users\\steph\\.claude\\projects\\e--Unity-VNPC\\memory"
-                                                  ]
-                    }
-}
+﻿
